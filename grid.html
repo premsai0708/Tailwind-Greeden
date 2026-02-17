@@ -1,0 +1,86 @@
+<style>
+    .container{
+        padding: 10px;
+        margin: 0;
+        background-color: skyblue;
+        display: grid;
+        grid-template-row: 1fr 1fr 1fr;
+        
+    }
+    .Header{
+        background-color: green ;
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .middle{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 10px;
+        
+    }
+
+    .one{
+        background-color: lightgreen;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 2px;
+    }
+
+    .two{
+        display: grid;
+        grid-template-rows: 3fr;
+        background-color: orange;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .container1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: 3fr 3fr;
+    }
+
+    .container2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    h1{
+        background-color: lightcoral;
+        padding: 3px;
+        margin: 2px;
+    }
+
+    .footer{
+        background-color: green;
+        padding: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="container">
+    <div class="Header">Header</div>
+    <div class="Middle">
+        <div class="one">Aside</div>
+        <div class="two">
+            <div class="container1">Article</div>
+            <div class="container2">
+                <h1>image</h1>
+                <h1>image</h1>
+                <h1>image</h1>
+            </div>
+        </div>
+    </div>
+    <div class="Footer">Footer</div>
+</div>
